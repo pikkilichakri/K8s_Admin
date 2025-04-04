@@ -67,7 +67,7 @@ metadata:
   name: expense
 subjects:
 - kind: User
-  name: om123 # Name is case sensitive
+  name: mahadeva # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
