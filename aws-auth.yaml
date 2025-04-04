@@ -11,10 +11,15 @@ data:
       - expense-pod-reader
       userarn: arn:aws:iam::831926582307:user/om123
       username: om123
+    - groups:
+      - expense-pod-reader
+      userarn: arn:aws:iam::831926582307:user/mahadeva
+      username: mahadeva
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-04-04T08:51:47Z"
   name: aws-auth
   namespace: kube-system
   uid: 546a43db-ef66-46f6-879d-d6a8d7b29a83
+
 
